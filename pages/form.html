@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> Information Form</title>
+  </head>
+  
+  <body>
+    <h2> Tis is a form for signing up dance lessons</h2>
+  </body>
+
+  <form>
+    First Name: <br>
+    <input type= "text" ><br>
+    Last Name: <br>
+    <input type= "text"> <br>
+    <!-- Radio button:  -->
+    Distance from school<br>
+    <input type= "radio" name = "distance" value= "<1"> Less than a mile<br>
+    <input type= "radio" name = "distance" value= "1<5"> More than a mile and less than five miles<br>
+    <input type= "radio" name = "distance" value= ">5"> More than 5 miles<br>
+      <br>
+    <!-- Drop down menu: 
+    size= the size of the visible window for the selections
+    multiple= able to select more than 1--> 
+    <select name = "danceType" size="2" multiple>
+      <option value="tango"> Tango </option>
+      <option value="salsa"> salsa </option>
+      <option value="reggaeton"> Reggaeton </option>
+    </select><br>
+      
+    <!--Text area:
+    row= number of row for text area size
+    cols= number of column size -->
+    <textarea name="experience" row="10" cols="30" placeholder="this is placeholder text"
+    >
+     
+    </textarea><br>
+    <input type="text" row="10" cols="30" placeholder="this is placeholder text"> <br>
+
+
+    <!--submit button-->
+    <input type="button"value="Click to accept"> <br>
+    <input type="date"><br>
+    <input type="password" minlength="8" required>
+    <input type="submit"> <br>
+    <input type="email" placeholder="email" size="30" pattern= ".+@gmail.com" required><br>
+    <label for="help"> Do you need help with this form?</label>
+    <input type="checkbox" name="help">
+
+
+
+  </form>
+
+
+
+
+
+
+
+</html>
